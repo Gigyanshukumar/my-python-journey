@@ -1,0 +1,19 @@
+                                            #Topic of rectangle
+
+Length = 60                  #length of rectangle
+Width = 30                     #width of rectangle
+
+print("Length of rectangle =",Length,"meter")
+print("Width of rectangle =",Width,"meter")
+
+                                        #Area of rectangle:-
+                                        
+Area = Length*Width                        #formula of Area of rectangle
+
+print("Area of rectangle = ",Area,"meter sq.")
+
+                                          #Perimeter of rectangle:-
+                                          
+perimeter = 2*Length+2*Width         #formula of perimeter of rectangle
+
+print("Perimeter of rectangle = ",perimeter,"meter.")

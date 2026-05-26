@@ -1,4 +1,5 @@
 today,i have completed two tasks about whom i have given the details below:
 
+day_2 (first_task) (maths basic arithmatic operation)
 
 Just a while ago, I was completely lost and wondering how I would ever learn to code. And now, I have successfully run and uploaded my very first code! 🚀 Let's go! Before diving into syntax and programs, I wanted to lay down my background, my motivations, and my goals. This script is a reflection of where I stand today and where I aim to be in the next 30 days. It keeps me grounded and focused on my targets.

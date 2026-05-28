@@ -1,0 +1,19 @@
+            #Time Converter (Seconds to Hours/Minutes) 
+
+device = "Time Converter"               #device name
+print(device.center(70))
+
+print()                                         #space
+
+time_given = int(input("total time in seconds: ")) #total time given                                                                                                   
+print()                                         #space
+
+sec = (time_given % 60)       #seconds remains calculated
+
+total_sec_in_min = (time_given // 60)
+
+min = (total_sec_in_min % 60)       #minutes remains calculated
+
+hrs = (total_sec_in_min // 60)                #hours remains calculated
+
+print(f"There are {hrs}hours, {min}minutes and {sec} seconds in {time_given} seconds.")

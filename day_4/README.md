@@ -29,3 +29,12 @@ Some of the features of this BMI calculator are given below.
 3. Pythonic Mathematical Logic: Implements the standard Body Mass Index formula correctly using Python’s exponent operator (** 2) for clean and optimized code execution.
 4. Modern Output Formatting: Utilizes Python's f-strings (Formatted String Literals) for an efficient, readable, and clean final output display.
 5. Organized Terminal Layout: Includes intentional empty print() functions to create vertical spacing, making the terminal interface neat and easy to navigate for the user.
+
+# day_4 (fourth_task) (#time converter)
+
+This is my fourth device I have coded in today's practice, which is a time converter, some of its main features are given below.
+1. Mathematical Accuracy: The script uses integer arithmetic, specifically floor division (//) and the modulus operator (%), ensuring exact time conversion without any floating-point rounding errors.
+2. User-Friendly CLI Interface: Features a clean command-line presentation by using the .center() method to dynamically align the program title and incorporates strategic line breaks (print()) for better readability.
+3. ​Optimal Variable Isolation: Utilizes clear intermediate variables (like total_sec_in_min) to break down the conversion logic step-by-step, making the codebase highly readable and easy to maintain.
+4. Efficient Type Casting: Safely processes raw user data by converting the string input directly into an integer (int(input())) before executing any mathematical operations.
+5. Clean String Interpolation: Implements modern Python f-strings to seamlessly merge calculated integers with textual descriptions for a polished output.

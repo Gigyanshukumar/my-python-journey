@@ -1,0 +1,18 @@
+                                   #BMI calculator
+
+topic = "BMI calculator"                  #topic of code
+print(topic.center(70))
+
+print()                               # space
+
+weight = float(input("weight of the person in kg: "))          #weight of person                                                                                                 person
+
+print()                               # space
+
+height = float(input("height of the person in meters: "))              #height of person                
+                                                                           
+print()                               # space
+
+BMI = (weight / (height ** 2))            #bmi calculator  
+
+print(f"BMI of person's body: {BMI} kg/m^2")

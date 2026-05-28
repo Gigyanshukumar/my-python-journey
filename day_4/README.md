@@ -9,3 +9,13 @@ I used some tools to make this calculator which I am mentioning here:
 3. ​Arithmetic Operators (*, /, +)
 4. ​String Manipulation (.center())
 5. Code Readability & Documentation like comments (#) and space (print()).
+
+# day_4 (second_task) (#Temperature converter)
+
+Continuing my practice, my second project today is a temperature converter that converts any temperature from Celsius to Fahrenheit.
+The code for this temperature converter has some key features:
+1. Centered Title Display: Uses Python's built-in .center() method to format and display a clean, centered header in the terminal.
+2. Floating-Point Input Support: Accepts decimal numbers (e.g., 36.5 or 98.6) by using the float() data type, allowing for precise temperature inputs.
+3. Accurate Conversion Logic: Implements the standard mathematical formula (Celsius * 9/5) + 32 to ensure 100% accurate Fahrenheit calculations.
+4. Modern Output Formatting: Utilizes Python's f-strings (Formatted String Literals) for a clean, efficient, and highly readable output structure.
+5. Clean Terminal Layout: Includes intentional line breaks (print()) to add spacing, making the final output organized and easy to read for the user.

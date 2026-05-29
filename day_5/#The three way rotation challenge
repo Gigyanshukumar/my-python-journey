@@ -1,0 +1,26 @@
+                           #The Three-Way Rotation
+                           
+topic = "The three way rotation challenge"        #topic name
+
+print(topic.center(75))              
+         
+x = int(input("first value = "))          #first value
+
+print()                      #space
+
+y = int(input("second value = "))          #second value
+
+print()                      #space
+
+z = int(input("third value = "))          #third value
+
+print()                      #space
+
+print(f"values before swapping: x = {x}, y = {y}, z = {z}")
+ 
+y,z,x = x,y,z
+
+print()                      #space
+
+print(f"values after swapping: x = {x}, y = {y}, z = {z}")
+

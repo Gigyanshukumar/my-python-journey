@@ -15,3 +15,12 @@ Some of the main features of this device's code are as follows:
 2. Accurate Remainder Tracking: Uses efficient math logic to instantly find the leftover balance after the 500 rupee notes are accounted for.
 3. Optimized Performance: Built using lightweight and fast Python arithmetic operators (Floor Division // for note count and Modulus % for remaining balance) rather than complex loops.
 4. Polished Terminal UI: Features a clean layout with a perfectly center-aligned title using the .center(88) method and proper spacing for better readability.
+
+# day_5 (third_task) (#Arithmetic Operations in One Go)
+
+Today's third project is a device which takes two integers as a input and calculates its sum and product automatically.The user has to give two values only.
+Some features of this device's code are as follows:
+1. ​Simultaneous Calculation (One Go): Performs multiple arithmetic operations (Addition and Multiplication) at the exact same time using Python's advanced tuple assignment feature.
+2. Optimized Memory Assignment: Uses a single-line assignment operator (total_sum, result_product = ...) to efficiently handle variables instead of writing separate, repetitive lines of code.
+3. Dynamic Content Formatting: Implements Python's modern f-strings to print the final results cleanly, embedding the user inputs and calculated values dynamically.
+4. Polished Layout: Features a neatly structured terminal output with a center-aligned header using .center(78) and strategic spacing for maximum readability.

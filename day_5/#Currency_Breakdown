@@ -1,0 +1,20 @@
+                             #Currency breakdown
+
+topic = "Breakdown of currency"                 #topic
+print(topic.center(88))
+
+print()                                           #space
+
+amount = int(input("Total amount taken: "))
+
+print()                                           #space
+
+notes_500s = amount // 500  #total number of 500 notes
+
+ramain_balance = amount % 500   #balance remains after 500s
+
+print("Total number of 500 notes in",amount,"are: ",notes_500s,"notes")
+
+print()                                           #space
+
+print("Remaining balance after excluding 500 notes is: ",ramain_balance,"rs")

@@ -4,15 +4,15 @@ topic = "The three way rotation challenge"        #topic name
 
 print(topic.center(75))              
          
-x = int(input("first value = "))          #first value
+x = int(input("first value(x) = "))          #first value
 
 print()                      #space
 
-y = int(input("second value = "))          #second value
+y = int(input("second value(y) = "))          #second value
 
 print()                      #space
 
-z = int(input("third value = "))          #third value
+z = int(input("third value(z) = "))          #third value
 
 print()                      #space
 

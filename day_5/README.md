@@ -1,4 +1,4 @@
-# day_5 (#the three way rotation)
+# day_5 (first_task) (#the three way rotation)
 
 Today is my fifth day of this python coding journey and here's my first code for today which is a three way rotational device use to rotate the numbers by just putting in the values.
 Some features of this device's code are as follows:

@@ -1,0 +1,31 @@
+                                      #Smart ATM
+
+topic = "Smart ATM"                             #topic               
+print (topic.center(60))
+
+amount = int(input("Entered amount: "))        #given amount
+
+print()                              #space
+
+no_of_500s = amount // 500                 #number of 500 notes
+
+balance_after_500s = amount % 500   #balance after 500s
+
+total_100s_in_balance = balance_after_500s // 100    
+                                                      #notes of 100 in remaining
+                                                      
+final_balance = balance_after_500s % 100      #final balance
+
+print(f"Total number of 500 notes in {amount}: {no_of_500s}")
+
+print()                              #space
+
+print(f"Remaining balance after all 500 notes:  {balance_after_500s}")
+
+print()                              #space
+
+print(f"Total number of 100 notes in {balance_after_500s}:  {total_100s_in_balance}")
+
+print()                              #space
+
+print(f"Final balance after 100 notes: {final_balance}")

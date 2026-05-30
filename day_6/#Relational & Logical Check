@@ -1,0 +1,18 @@
+                            #Relational & Logical Check
+
+topic = "Relational & Logical Check"        #topic of code
+print(topic.center(80))
+
+print()                                       #space
+
+num = int(input("Taken number: "))           #input number
+
+print()                                       #space
+
+cond_1 = num > 10
+cond_2 = num < 50
+cond_3 = num == 100
+
+result = (cond_1 and cond_2) or cond_3
+
+print(f"Is the number valid: ",result)

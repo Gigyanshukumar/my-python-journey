@@ -15,3 +15,11 @@ Here's the second task of today.it is a device which basically takes decisions t
 ​Monthly Income > 50,000
 ​Credit Score \ge 750
 Clean & Readable Output: Utilizes built-in string formatting methods like .center() and strategic spacing to ensure a neat, user-friendly terminal interface.
+
+# day_7 (third_task) (#movie theater entry)
+Here's the third task for today. this is a device which detects that weather a viewer is elegible or not to go in the movie theater. this code and the second one are for the practice purpose of the first code concepts. 
+here are some of the main characteristics of this code:
+1. Strict Logical Evaluation (and Operator): Ensures entry is granted exclusively when both age and ticket requirements are satisfied simultaneously, mirroring real-world theater rules.
+2. Case-Insensitive Input Handling: Applies the .lower() method to the ticket response, making the system robust against different user typing styles (e.g., "Yes", "YES", or "yes").
+3. Efficient No-Condition Logic: Successfully fulfills the challenge requirements by computing the final result using pure boolean algebra, eliminating the need for bulky if-else blocks.
+4. Clean Terminal Presentation: Utilizes formatting methods like .center() alongside deliberate spacing (print()) to output a neat and highly readable CLI layout.

@@ -1,0 +1,22 @@
+                                  #Movie Theatre Entry
+
+topic =  "Movie Theatre Entry"           #topic of code
+print(topic.center(60))
+
+print()                                            #space
+
+age_status = int(input("Age of the viewer: "))        #viewer's age
+
+print()                                            #space
+
+age_criteria = age_status >= 18     #age should be greater than or equal to 18
+
+ticket_status = str(input("Do the viewer have ticket? (yes/no) : ")).lower()                   #viewer having ticket or not
+
+print()                                            #space
+
+ticket_criteria = (ticket_status == "y" or ticket_status == "yes")
+
+result = age_criteria and ticket_criteria      
+
+print(f"Is viewer eligible to get entry : {result}")

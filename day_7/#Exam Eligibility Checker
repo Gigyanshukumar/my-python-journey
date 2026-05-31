@@ -1,0 +1,22 @@
+                              #Exam Eligibility Checker
+
+topic = "Exam Eligibility Checker"      #topic
+print(topic.center(60))
+
+print()                                            #space
+
+attendence = int(input("Attendence of student: "))                                                                                                     #attendence number
+
+print()                                            #space
+
+attendence_criteria = attendence >= 75
+
+med_certificate = str(input("Do yo have a medical certificate? (yes/no): ")).lower()                 #student medical certificate
+
+print()                                            #space
+
+med_criteria = (med_certificate == "y" or med_certificate == "yes")
+
+result = attendence_criteria or med_criteria
+
+print(f"Is the student elegible for exams: {result}")

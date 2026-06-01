@@ -7,3 +7,13 @@ some features of this device are as follows:
 3. Case-Insensitive Input Validation: Employs the .lower() method to gracefully normalize user inputs, preventing runtime logical errors from varied text casing (e.g., 'YES', 'Yes').
 4. Flexible Affirmation Handling: Enhances user experience by accepting both shorthand ("y") and full-length ("yes") confirmations for membership status.
 5. Clean & Readable Architecture: Accomplishes the entire validation task without any if-else branching, ensuring minimal and high-performing Python code.
+
+# day_8 (second_task) (#Job selection criteria)
+
+This is the second code which i have ran today.I have made a device which makes decision on weather a person is eligible to get the job or not on the preffered criteria. 
+some features of this device are as follows:
+1. Precise Operator Precedence: Uses explicit grouping via parentheses () to properly manage Python's logical precedence, ensuring the or condition evaluates as a single block before the and logic.
+2. Mandatory Skill Filtering: Structurally ensures that Python knowledge acts as a non-negotiable gateway requirement, rejecting candidates instantly if they lack this skill regardless of other qualifications.
+3. Hybrid Condition Evaluation: Elegantly balances strict logical requirements (and) with flexible secondary options (or) to map out complex real-world recruitment rules.
+4. Case-Insensitive & Flexible Matching: Normalizes string inputs using .lower() and captures both shorthand ("y") and long-form ("yes") responses for seamless interaction.
+5. Branchless Logical Architecture: Completes a multi-layered verification pipeline without using complex nested conditional blocks (if-else), making it lightweight and highly readable.

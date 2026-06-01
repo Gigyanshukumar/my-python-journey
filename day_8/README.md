@@ -25,3 +25,13 @@ some features of this device are as follows:
 1. Precise Modulo Arithmetic: Leverages the remainder operator (%) to strictly evaluate exact divisibility benchmarks for numbers 4, 100, and 400.
 2. Optimized Boolean Precedence: Pairs logical and with or operators cleanly, ensuring standard leap years (divisible by 4 but NOT 100) are verified correctly alongside absolute century leap years (divisible by 400).
 3. Zero-Branching Architecture: Completes a multi-step mathematical evaluation natively in a single expression line, removing if-else processing overhead.
+
+# day_8 (fourth_task) (#Grocery bill generator)
+
+This is my fourth device which I have coded today. I have coded a device which basically makes decision that weather a person is eligible to get the discount on the grocery products or not.
+some features of this device are as follows:
+1. Dynamic Multi-Item Billing: Seamlessly captures names, unit prices, and quantities for multiple items sequentially to calculate individual totals.
+2. Smart F-String Prompts: Utilizes Python f-strings dynamically within input prompts to guide the user clearly based on previously entered item names.
+3. Automated Threshold Evaluation: Implements relational operators (> 1000) to instantaneously determine discount qualification based on the grand total.
+4. Pure Logical Branching: Fulfills conditional requirements flawlessly using direct boolean expressions instead of traditional if-else loops.
+5. Polished CLI Layout: Uses text centering (.center()) and intentional vertical padding (print()) to output a clean, readable receipt-style terminal interface.

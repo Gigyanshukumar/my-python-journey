@@ -1,0 +1,22 @@
+                         #Discount qualification problem
+
+topic = "Discount qualification problem"     #topic of code
+print(topic.center(60))
+
+print()                                        #space
+
+premium_membership = str(input("Is the costumer a premium member? (yes/no) : ")).lower()
+
+print()                                        #space
+
+membership_criteria = (premium_membership == "y" or premium_membership == "yes")
+
+Bill_status = int(input("Bill of the costumer : "))
+
+print()                                        #space
+
+Bill_criteria = (Bill_status > 2000)
+
+result = membership_criteria or Bill_criteria
+
+print(f"Is the person eligible for the discount: {result}")

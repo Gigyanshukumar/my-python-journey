@@ -1,0 +1,20 @@
+                                   #Leap Year Logic
+
+topic = "Leap year logic"                        #topic of code
+print(topic.center(60))
+
+print()                          #space
+
+year = int(input("Enter your year: "))        #year to chech that weather it is leap or not
+
+print()                          #space
+
+divisible_by_4 = year % 4 == 0
+
+divisible_by_100 = year % 100 != 0
+
+divisible_by_400 = year % 400 == 0
+
+result = (divisible_by_4 and divisible_by_100) or divisible_by_400
+
+print(f"The year {year} is a leap year?  {result}")

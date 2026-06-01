@@ -17,3 +17,11 @@ some features of this device are as follows:
 3. Hybrid Condition Evaluation: Elegantly balances strict logical requirements (and) with flexible secondary options (or) to map out complex real-world recruitment rules.
 4. Case-Insensitive & Flexible Matching: Normalizes string inputs using .lower() and captures both shorthand ("y") and long-form ("yes") responses for seamless interaction.
 5. Branchless Logical Architecture: Completes a multi-layered verification pipeline without using complex nested conditional blocks (if-else), making it lightweight and highly readable.
+
+# day_8 (third_task) (#Leap year logic)
+
+Today's third coded device is in front of you.There is a good level of logic used in this code. Actually,this device use to detect that weather the entered year is a leap year or not.
+some features of this device are as follows:
+1. Precise Modulo Arithmetic: Leverages the remainder operator (%) to strictly evaluate exact divisibility benchmarks for numbers 4, 100, and 400.
+2. Optimized Boolean Precedence: Pairs logical and with or operators cleanly, ensuring standard leap years (divisible by 4 but NOT 100) are verified correctly alongside absolute century leap years (divisible by 400).
+3. Zero-Branching Architecture: Completes a multi-step mathematical evaluation natively in a single expression line, removing if-else processing overhead.

@@ -1,0 +1,60 @@
+                            #Grocery bill generator
+
+topic = "Grocery bill generator"            #topic of code
+print(topic.center(60))
+
+print()                                            #space
+
+item_1 = str(input("first item: "))
+
+print()                                            #space
+
+item_1_price = int(input(f"{item_1} price : "))
+
+print()                                            #space
+
+quantity_item_1 = int(input(f"Quantity of {item_1}: "))
+
+print()                                            #space
+
+total_cost_item_1 = item_1_price * quantity_item_1
+
+print()                                            #space
+
+item_2 = str(input("second item: "))
+
+print()                                            #space
+
+item_2_price = int(input(f"{item_2} price : "))
+
+print()                                            #space
+
+quantity_item_2 = int(input(f"Quantity of {item_2}: "))
+
+print()                                            #space
+
+total_cost_item_2 = item_2_price * quantity_item_2
+
+print()                                            #space
+
+item_3 = str(input("Third item: "))
+
+print()                                            #space
+
+item_3_price = int(input(f"{item_3} price : "))
+
+print()                                            #space
+
+quantity_item_3 = int(input(f"Quantity of {item_3}: "))
+
+print()                                            #space
+
+total_cost_item_3 = item_3_price * quantity_item_3
+
+print()                                            #space
+
+Total_cost = total_cost_item_1 + total_cost_item_2 + total_cost_item_3               #total cost of all items 
+
+discount = Total_cost > 1000
+
+print(f"Is the costumer eligible for the discount? {discount}")

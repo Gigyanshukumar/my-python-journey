@@ -1,0 +1,29 @@
+                              #Salary Increment Calculator
+
+topic = "Salary Increment Calculator"        #topic of code
+print(topic.center(60))
+
+print()                                          #space
+
+salary = int(input("Salary of the employee: "))      #employee's salary
+
+print()                                          #space
+
+HRA = (12 * salary)  /  100         #house rent allowence
+
+print(f"HRA of the employee: {HRA}")
+
+print()                                          #space
+
+DA = (8 * salary)  /  100         #Dearness Allowance
+
+print(f"DA of the employee: {DA}")
+
+print()                                          #space
+
+salary += HRA 
+
+salary += DA 
+
+
+print(f"Total salary of the employee including the HRA amount and DA amount: {salary}")

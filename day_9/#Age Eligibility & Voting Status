@@ -1,0 +1,20 @@
+                           #Age Eligibility & Voting Status
+
+topic = "Age Eligibility & Voting Status"      #topic of code
+print(topic.center(65))
+
+print()                                         #space
+
+birth_year = int(input("Birth year of the person: "))
+
+print()                                         #space
+
+person_age = 2026 - birth_year          #age of the person
+
+print(f"Person's current age: {person_age}")
+
+print()                                         #space
+
+vote_eligibility = person_age >= 18      #criteria for being a voter 
+
+print(f"Is the person eligible for voting? : {vote_eligibility}")

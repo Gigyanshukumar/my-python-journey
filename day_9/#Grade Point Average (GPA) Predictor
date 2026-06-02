@@ -1,0 +1,32 @@
+                    #Grade Point Average (GPA) Predictor
+
+topic = "Grade Point Average (GPA) Predictor"     #topic of code
+print(topic.center(60))
+
+print()                                #space
+
+sub_1_marks = int(input("Marks scored in subject 1 out of 100: "))                               #marks of first subject
+
+print()                                #space
+
+sub_2_marks = int(input("Marks scored in subject 2 out of 100: "))                               #marks of second subject
+
+print()                                #space
+
+sub_3_marks = int(input("Marks scored in subject 3 out of 100: "))                               #marks of third subject
+
+print()                                #space
+
+avg_percent = (sub_1_marks + sub_2_marks + sub_3_marks)/300 * 100          #average percentage of all marks
+
+avg_percent_criteria = avg_percent > 40    #avg_percent_criteria
+
+sub_1_marks_criteria = sub_1_marks >= 33
+
+sub_2_marks_criteria = sub_2_marks >= 33
+
+sub_3_marks_criteria = sub_3_marks >= 33
+
+result = avg_percent_criteria and sub_1_marks_criteria and sub_2_marks_criteria and sub_3_marks_criteria
+
+print(f"Is the student passed in exam? : {result}")

@@ -1,0 +1,15 @@
+                               #count function practice
+
+topic =  "count function practice"
+print(topic. center(60))
+ 
+print()                                         #space
+ 
+  #we have to count the number of dollars in the string..
+
+variable = "hi, $i am the $ symbol. $99.99"
+print(variable)
+
+print()                                         #space
+
+print(f"number of dollar $ signs used: {variable.count("$")}")

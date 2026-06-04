@@ -1,0 +1,110 @@
+                                       #use of  \n
+
+str = "My name is Gigyanshu kumar.\nI am 18 years old."
+print(str)
+
+print()                    #space
+
+                                       #use of \t
+
+str = "My name is Gigyanshu kumar.\tI am 18 years old."
+print(str)
+
+print()                    #space
+
+                                 #use of concatenation
+
+#concatenation is a term which basically denotes that we can also add two or more strings and make a single string.
+
+str1 = "my name is "
+str2 = "Gigyanshu kumar"
+
+print(str1 + str2)
+
+print()                    #space
+
+                               #about length of string
+
+# it helps us to recognize about the number of characters used in the string.It also includes the spaces between the string.
+
+str = "Gigyanshu kumar"
+print(len(str))
+
+print()                    #space
+
+                                  #about Indexing
+
+#it is term which basically helps to recognise the character by its index number.Index numbers are those numbers which are alloted to every character of string.it starts from 0 and goes upto last character.
+
+str1 = "Boxing"
+print(str1[3])
+print(str1[5])
+
+print()                    #space
+
+                                  #about slicing
+
+#it is a way through which we can access any part of the given string.it includes first syntex number's character but not the last one.
+
+str = "Black board"
+print(str[2:5])
+print(str[2:8])
+print(str[2:])      #when there is no any number on other side of : then python recognizes it as the last syntex number and gives result accourding to it.
+print(str[:5])         #when there is no any number on first side of : then python recognizes it as the first syntex number and gives result accourding to it.
+print(str[2:len(str)])
+
+print()                    #space
+
+                                  #about negative index
+
+#in this concept,we assume the characters of the string with negative index numbers but it works same as the normal slicing.
+
+print(str[-5:-1])
+
+print()                    #space
+
+                                  #string functions
+
+"""
+1. endswith function:-
+it checks that is the last part of the string is ending with the given string in function.it gives the result in boolean value.
+"""
+
+str = "I am a coder"
+print(str.endswith("er"))
+
+print()                    #space 
+
+#2. capitalize function:-
+
+#it is a kind of function which basically converts the first character of string to capital letter.
+
+name = "my name is Gigyanshu kumar"
+print(name.capitalize())
+
+print()                    #space 
+
+#2. replace function:-	
+
+#it's a kind of function which helps to replace any string word or a character from the string.
+
+name = "my name is Gigyanshu kumar"
+print(name.replace("my","My"))
+
+print()                    #space 
+
+#3. find function:-
+
+#it is a function which gives the index number of firstever character which we have given as input in the function.
+
+name = "my name is Gigyanshu kumar"
+print(name.find("e"))
+
+print()                    #space 
+
+#4. count function:-
+
+#it is a type of function which helps to count that how much times the word or character comes in our string which we have entered in the function.
+
+name = "my name is Gigyanshu kumar"
+print(name.count("a"))

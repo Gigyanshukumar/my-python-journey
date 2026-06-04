@@ -1,0 +1,5 @@
+name = input("name of the person: ")
+
+print()                                                 #space
+
+print(f"length of the name is:{len(name)}")

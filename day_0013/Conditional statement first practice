@@ -1,0 +1,7 @@
+age = 12
+
+if(age >= 18):
+	print("can vote and drive")
+	
+else:
+	print("cannot vote and drive")

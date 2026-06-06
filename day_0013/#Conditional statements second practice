@@ -1,0 +1,21 @@
+light = "grey"
+
+print(f"if the light is {light}:")
+
+
+
+if(light == "red"):
+    
+    print("Stop vehicle")
+    
+elif(light == "yellow"):
+    
+    print("look around")
+    
+elif(light == "green"):
+    
+    print("Vehicle can go")
+    
+else:
+	
+	print("light is broken")

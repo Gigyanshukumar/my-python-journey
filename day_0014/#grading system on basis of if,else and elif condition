@@ -1,0 +1,18 @@
+        #grading system on basis of if,else and elif condition
+
+marks = float(input("Marks of the student: "))
+
+print()                                                   #space
+
+if  100 > marks >= 90:
+	grade = "A"
+elif 90 > marks >= 80:
+	grade = "B"
+elif 80 > marks >= 70:
+	grade = "C"
+elif 70 > marks:
+	grade = "D"
+else:
+	print("wrong checked marksheet")
+	
+print(f"Grade of the student:{grade}")

@@ -1,0 +1,20 @@
+                                #grade calculator
+
+marks = float(input("Enter the marks of student: "))
+
+print()                                      #space
+
+if marks >=90 and marks <= 100:
+    print("The student gets grade A")
+    
+elif marks >= 80 and marks < 90:
+    print("The student gets grade B")
+    
+elif marks >= 70 and marks < 80:
+    print("The student gets grade C")
+    
+elif marks >= 0 and marks < 70:
+    print("The student gets grade F")
+    
+else:
+    print("The marks entered is beyond the marking limitations.")

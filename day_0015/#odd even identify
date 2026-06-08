@@ -1,0 +1,11 @@
+                                 #odd even identify
+                                 
+num = int(input("Enter the number: "))
+
+print()                                     #space
+
+if num % 2 == 0:
+    print(f"{num} is an even number.")
+
+else :
+    print(f"{num} is an odd number.")

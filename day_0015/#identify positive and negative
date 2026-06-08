@@ -1,0 +1,14 @@
+                            #identify positive and negative
+
+num = float(input("Enter number: "))     #number entered by user
+
+print()                                   #space
+
+if num > 0:
+    print(f"{num} is greater than zero i.e positive number.")
+
+elif num < 0:
+    print(f"{num} is smaller than zero i.e negative number.")
+    
+else :
+    print(f"{num} is equal to zero.")

@@ -1,0 +1,11 @@
+                                    #character check
+
+character = input("Enter character: ")
+
+print()                                      #space
+
+if character == "x":
+    print("Yes, both characters are equal.")
+    
+else:
+    print("No,both characters are not equal.")

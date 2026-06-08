@@ -1,0 +1,11 @@
+                                    #pass or fail criteria                             
+                                    
+marks = int(input("Marks of the student: "))
+
+print()                                        #space
+
+if marks >= 40:
+    print("Passed")
+    
+else:
+    print("Failed")

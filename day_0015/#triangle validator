@@ -1,0 +1,13 @@
+                                   #triangle validator
+
+s1 = int(input("First side of triangle: "))
+
+s2 = int(input("Second side of triangle: "))
+
+s3 = int(input("Third side of triangle: "))
+
+if s1 + s2 > s3 and s2 + s3 > s1 and s3 + s1 > s2:
+    print(f"Sides {s1},{s2} and {s3} form a valid Triangle.")
+
+else:
+    print(f"Sides {s1},{s2} and {s3} do not form a valid Triangle.")

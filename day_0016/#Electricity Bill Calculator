@@ -1,0 +1,21 @@
+                                #Electricity Bill Calculator
+
+unit_consumption = float(input("Total electric bill consumed by consumer: "))
+
+if unit_consumption > 200:
+    first_100 = 100 * 5                    #charge on first 100 units
+
+    second_100 = 100 * 7                    #charge on second 100                                                                                             units
+
+    third_part = (unit_consumption - 200) * 10                                                                                                    #charge on remain units
+    print("Total bill: ",first_100 + second_100 + third_part)
+
+elif unit_consumption > 100:
+    first_100 = 100 * 5                    #charge on first 100 units
+    print("Total bill: ",first_100 + (unit_consumption - 100) * 7)
+
+elif unit_consumption >= 0:
+    print("Total bill: ",unit_consumption * 5)
+
+else :
+    print("Entered units is invalid")

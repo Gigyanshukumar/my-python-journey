@@ -1,0 +1,11 @@
+                      #identifying vowels and consonents
+
+alphabet = str(input("Enter your alphabet: ")).lower()
+
+print()                                         #space
+
+if alphabet in ("a" , "e" , "i" , "o" , "u"):
+    print(f"{alphabet} is a vowel.")
+
+else:
+    print(f"{alphabet} is a consonant.")

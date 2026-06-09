@@ -1,0 +1,19 @@
+                                #Income Tax Calculator
+
+annual_salary = int(input("Annual salary of the employee: "))
+
+print()                                        #space
+
+if annual_salary <= 500000:
+    print("No taxation applied")
+
+elif annual_salary > 500000 and annual_salary <= 1000000:
+    tax_above_500000 = 10/100*(annual_salary - 500000)
+    print(f"Taxation on {annual_salary}: {tax_above_500000}")
+    
+elif annual_salary > 1000000:
+    tax_above_1000000 = 20/100* (annual_salary - 1000000) + 50000
+    print(f"Taxation on {annual_salary}: {tax_above_1000000}")
+
+else:
+    print("check the entered digits of salary,weather it is wrong or not")

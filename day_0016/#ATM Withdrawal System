@@ -1,0 +1,23 @@
+                              #ATM Withdrawal System
+
+current_balance = 10000            #user's current balance
+
+print(f"Current balance:{current_balance}")
+
+print()                                    #space
+
+amount_withdraw = int(input("Enter the withdraw amount here: "))                                       #user's withdrawl amount
+
+print()                                    #space
+
+if amount_withdraw  > 10000:
+    print("In sufficient balance")
+
+else: 
+    if amount_withdraw  % 100 != 0:
+        print("Please enter amount in multiple of 100,500 or 2000")
+        print(f"Remain balance:{current_balance}")        
+    else:
+        balance = current_balance - amount_withdraw
+        print("Amount_withdraw successful")
+        print(f"Balance remains:{balance}")

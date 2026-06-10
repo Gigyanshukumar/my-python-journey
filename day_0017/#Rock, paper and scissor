@@ -1,0 +1,24 @@
+                                 #Rock, paper and scissor
+
+p1 = str(input("Player 1 attempt: ")).lower()
+
+print()                                                    #space
+
+p2 = str(input("Player 2 attempt: ")).lower()
+
+print()                                                    #space
+
+r = "rock"
+p = "paper"
+s = "scissor"
+if (p1 == r and p2 == s) or (p1 ==p and p2 == r) or (p1 == s and p2 == p):
+    print("Player 1 won the match.")
+
+elif (p1 == s and p2 == r) or (p1 == r and p2 == p) or (p1 == p and p2 == s):
+    print("Player 2 won the match.")
+
+elif (p1 == r and p2 == r) or (p1 == p and p2 == p) or (p1 == s and p2 == s):
+    print("Match drawn.")
+
+else:
+    print ("The move is wrong.")

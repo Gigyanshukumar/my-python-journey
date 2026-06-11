@@ -1,0 +1,39 @@
+                               #Movie Ticket Pricing System
+
+age = float(input("Age of the person: "))
+
+print()                                                #space
+
+time = int(input("Timing of the movie in 24 hrs format: "))
+
+print()                                                #space
+
+price = 300                        # base price of the ticket
+
+if age <= 0 or time < 0 or time > 24:
+   print("The entered data is invalid.Try again.") 
+
+elif age < 5 and age > 0:
+    print("The ticket is free.")
+
+elif age >= 5 and age <= 12:
+    if 12 <= time <= 16:
+        bonus_discount = (50 *300)/100
+        discount_price_1 = price - bonus_discount
+        print(f"The price of the ticket:{discount_price_1}")
+    else:
+         normal_discount = (20 *300)/100
+         discount_price_2 = price - normal_discount
+         print(f"The price of the ticket is:{discount_price_2}")
+         
+elif age >= 13 and age <= 60:
+    if time >= 20:
+        extra_price = price + 50
+        print(f"Price of the ticket at peak hrs:{extra_price}")
+    else:
+         print(f"price of the ticket:{price}")
+
+elif age > 60:
+    discount_price_3 = (40*300)/100
+    price_for_seniors = price - discount_price_3
+    print(f"Price of the ticket:{price_for_seniors}")

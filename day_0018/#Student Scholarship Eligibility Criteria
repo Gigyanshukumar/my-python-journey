@@ -1,0 +1,31 @@
+                   #Student Scholarship Eligibility Criteria
+
+gpa = float(input("Enter your GPA from 1-10 scale: "))
+
+print()                                            #space
+
+attendence_percentage = float(input("Enter your attendance in percentage: "))
+
+print()                                            #space
+
+family_income = int(input("Enter your family income: "))
+
+print()                                            #space
+
+if attendence_percentage < 75:
+    print("Not Eligible due to low attendance.")
+
+elif gpa >= 9:
+    if family_income < 300000:
+        print("Congratulations! You are eligible for 100% Scholarship.")
+    else:
+        print("Congratulations! You are eligible for 50% Scholarship.")
+
+elif gpa >= 7.5 :
+    if family_income < 200000:
+        print("Congratulations! You are eligible for 25% Scholarship.")
+    else:
+        print("No Scholarship (Income too high).")
+
+elif gpa < 7.5:
+    print("No Scholarship (Low GPA).")

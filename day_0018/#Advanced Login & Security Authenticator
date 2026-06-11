@@ -1,0 +1,27 @@
+                 #Advanced Login & Security Authenticator
+
+user_name = "admin"
+
+pass_word = "secure123"
+
+O_T_P = 4567
+
+username = str(input("Enter username: "))
+
+if username != user_name:
+    print("Access Denied: Invalid Username")
+    
+else:
+    password = str(input("Enter your password: "))
+    
+    if password != pass_word:
+        print("Access Denied: Incorrect Password")
+        
+    else:
+        OTP = int(input("Enter he OTP: "))
+
+        if OTP == O_T_P:
+            print("Login Successful! Welcome to Dashboard.")
+        
+        else:
+            print("Security Alert: Correct credentials but Invalid OTP!")

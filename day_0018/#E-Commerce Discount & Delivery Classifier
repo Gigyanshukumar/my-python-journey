@@ -1,0 +1,37 @@
+              #E-Commerce Discount & Delivery Classifier
+
+card_amount = float(input("Total shopping amount: "))
+
+membership_status = str(input("Enter your membership status (premium/regular): ")).lower()
+
+if membership_status != "premium" and membership_status != "regular":
+    print("Your category is invalid. try again.")
+    
+elif card_amount >= 5000:
+    if membership_status == "premium":
+        discount_price_1 = (25*card_amount)/100
+        final_bill = card_amount - discount_price_1
+        print(f"Bill has to be paid: {final_bill}\nThe delivery is free.")
+    
+    else:
+        discount_price_2 = (15*card_amount)/100
+        final_bill_2 = card_amount - discount_price_2
+        print(f"Bill has to be paid: {final_bill_2}\nThe delivery is free.")
+        
+elif card_amount <= 4999 and card_amount >= 2000:
+    if membership_status == "premium":
+        discount_price_3 = (10*card_amount)/100
+        final_bill_3 = card_amount - discount_price_3
+        print(f"Bill has to be paid: {final_bill_3}\nThe delivery is free.")
+        
+    else:
+        discount_price_4 = (5*card_amount)/100
+        final_bill_4 = card_amount - discount_price_4 + 100
+        print(f"Bill has to be paid: {final_bill_4} including delivery charges of 100 rs.")
+
+elif card_amount < 2000 and card_amount >= 0:
+    if membership_status == "premium":
+        print(f"You are not eligible for the discount benifits.\nBill has to be paid {card_amount} including no delivery charge.")
+    else:
+        final_bill_5 = card_amount + 150
+        print(f"You are not eligible for the discount benifits.\nBill has to be paid {final_bill_5} including 150 rs delivery charge.")

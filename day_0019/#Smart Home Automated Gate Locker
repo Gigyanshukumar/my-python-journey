@@ -1,0 +1,19 @@
+                     #Smart Home Automated Gate Locker
+
+emergency_mode = "true"
+emergency_code = "RED911"
+face_recognized = "true"
+emergency_status = str(input("Enter the emergency status?(true/false): ")).lower()
+if emergency_status == emergency_mode:
+    emergency_code_enter = str(input("Enter emergency code: "))
+    if emergency_code_enter == emergency_code:
+        print("Emergency Override: Gate Opened! Authorities Notified.")
+    else:
+        print("Intruder Alert: Wrong Emergency Code! System Locked.")
+
+else:
+    is_face_recognized = str(input("Is your face recognised ? (true/false): ")).lower()
+    if is_face_recognized == face_recognized:
+        print("Welcome Home! Gate Opened.")
+    else:
+        print("Access Denied: Unknown Person. Door remains locked.")

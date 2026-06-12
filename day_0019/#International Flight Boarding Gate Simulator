@@ -1,0 +1,19 @@
+                #International Flight Boarding Gate Simulator
+
+has_passport = "true"
+has_visa = "true"
+
+passport = str(input("Do you have passport?(true/false): "))
+if passport != has_passport:
+    print("Boarding Denied: Passport Missing!")
+
+else:
+    visa = str(input("Do you have visa?(true/false): "))
+    if visa != has_visa:
+        print("Boarding Denied: Visa Missing or Invalid!")
+    else:
+        luggage_weight = float(input("Enter your luggage weight: "))
+        if luggage_weight <= 25:
+            print("Verification Successful: Boarding Pass Issued!")
+        else:
+            print("Luggage Overweight: Please pay extra charges at the counter.")

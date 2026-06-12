@@ -1,0 +1,24 @@
+                       #Cyber Cafe Internet Access Portal
+user_1 = "true"
+usertype_1 = "Guest"
+usertype_2 = "Member"
+
+has_valid_id = str(input("Enter user id: ")).lower()
+if has_valid_id != user_1:
+    print("Access Denied: ID Proof Required.")
+    
+else:
+    usertype = str(input("Enter your user type: "))
+    age = int(input("Enter your age: "))
+    if usertype == usertype_1:
+        if age < 18:
+            print("Guest Access Allowed: Restricted Mode (Child Lock On)")
+        else:
+           print("Guest Access Allowed: Full Mode")
+    elif usertype == usertype_2:
+        if age > 60:
+            print("Member Access Allowed: Premium Lounge (Senior Citizen Benefit)")
+        else:
+             print("Member Access Allowed: Standard Console")
+    else:
+        print("Invalid usertype.")

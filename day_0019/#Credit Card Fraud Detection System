@@ -1,0 +1,26 @@
+                     #Credit Card Fraud Detection System
+                     
+                     
+is_home_location = "true"
+
+is_otp_verified = "true"
+
+transaction_amount = int(input("Enter transaction amount: "))
+
+if transaction_amount < 50000:
+    home_location = str(input("Is that home location?(true/false): ")).lower()
+    if home_location == is_home_location:
+        print("Transaction Approved")
+    else:
+        otp_verification = str(input("Is otp verified? (true/false): "))
+        if otp_verification == is_otp_verified:
+            print("Transaction Approved")
+        else:
+            print("Transaction Declined: Location Mismatch")
+
+else:
+    otp_verification = str(input("Is otp verified? (true/false): ")).lower()
+    if otp_verification == is_otp_verified:
+            print("High-Value Transaction Approved.")
+    else:
+        print("Fraud Detected: Account Temporarily Suspended!")

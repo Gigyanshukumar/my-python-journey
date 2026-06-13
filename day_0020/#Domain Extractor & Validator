@@ -1,0 +1,17 @@
+                          #Domain Extractor & Validator
+
+email = input("Enter your e-mail: ")
+
+at_position = email.find("@")
+
+print(f"Position of @:{at_position}")
+
+domain = email[at_position+1: ]
+
+print(f"domain of e-mail:{domain}")
+
+if domain.endswith(".com"):
+    print("Valid Commercial Domain")
+    
+else:
+    print("Other Domain")

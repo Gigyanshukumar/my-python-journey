@@ -1,0 +1,21 @@
+                            #Word Counter & Capitalizer
+
+sentence = str(input("Enter a random sentence: ")).lower()
+
+print()                                    #space
+
+no_of_spaces = sentence.count(" ")
+
+print(f"Number of spaces in the sentence:{no_of_spaces}")
+
+print()                                    #space
+
+no_of_words = no_of_spaces + 1
+
+print(f"Number of words:{no_of_words}")
+
+print()                                    #space
+
+capitalized_sentence = sentence.capitalize()
+
+print(f"Sentence after ​capitalising:{capitalized_sentence}")

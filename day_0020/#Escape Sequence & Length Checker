@@ -1,0 +1,19 @@
+                    #Escape Sequence & Length Checker
+
+first_name = str(input("Enter your first name: "))
+
+print()                                    #space
+
+last_name = str(input("Enter your last name: "))
+
+print()                                    #space
+
+full_name_with_tab = f"{first_name}\t{last_name}"
+
+print()                                    #space
+
+print("Name length:",len(full_name_with_tab))
+
+full_name_without_tab = first_name + last_name
+
+print(f"{full_name_with_tab}\n{full_name_without_tab}")
